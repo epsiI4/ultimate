@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1385121250 source:c:\users\mart__000\skydrive\developpement\c\ultimateultimate\main.c
+	<windows.h>
+	<gl/gl.h>
+	<pthread.h>
+

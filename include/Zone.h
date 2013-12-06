@@ -5,8 +5,7 @@
 class Zone
 {
     public:
-        Zone();
-        Zone(int, int, int, int);
+        Zone(int x,int y,int w, int h);
         virtual ~Zone();
     protected:
     private:

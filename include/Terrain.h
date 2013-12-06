@@ -1,5 +1,7 @@
 #ifndef TERRAIN_H
 #define TERRAIN_H
+#define nbZone 11
+#include "Zone.h"
 
 
 class Terrain
@@ -9,7 +11,7 @@ class Terrain
         virtual ~Terrain();
     protected:
     private:
-        vector<Zone> zones;
+        Zone zones[nbZone];
 };
 
 #endif // TERRAIN_H

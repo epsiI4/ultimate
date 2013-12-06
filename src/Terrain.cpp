@@ -4,7 +4,7 @@ Terrain::Terrain()
 {
 
     int x,y;
-    int i,y;
+    int i,j;
     int w,h;
     int wZone,hZone;
     wZone = 50;
@@ -12,18 +12,18 @@ Terrain::Terrain()
     x=0;
     y=0;
 
-    Zone butLeft = new Zone(20,30,0,20);
+    Zone butLeft = new Zone(0,0,20,30);
     zones.insert(butLeft);
     for(i=0,i<3,i++){
         for(y=0,y<3,){
-            Zone z = new Zone(wZone,hZone,x,y);
+            Zone z = new Zone(x,y,wZone,hZone));
             zones.insert(z);
             x += wZone;
         }
         y += hZone;
     }
 
-    Zone butRight = new Zone(20,30,150,30);
+    Zone butRight = new Zone(150,0,20,30);
     zones.insert(butRight);
 }
 

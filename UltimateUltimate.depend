@@ -4,3 +4,11 @@
 	<gl/gl.h>
 	<pthread.h>
 
+1386338574 source:c:\users\guillaume\projetc++\ultimate\main.c
+	<windows.h>
+	<gl/gl.h>
+	<pthread.h>
+
+1386338574 source:c:\users\guillaume\projetc++\ultimate\src\but.cpp
+	"But.h"
+

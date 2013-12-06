@@ -1,7 +1,7 @@
 #ifndef TERRAIN_H
 #define TERRAIN_H
-
-
+#include <vector>
+#include "..\include\Zone.h"
 class Terrain
 {
     public:
@@ -9,7 +9,7 @@ class Terrain
         virtual ~Terrain();
     protected:
     private:
-        vector<Zone> zones;
+        std::vector<Zone> zones;
 };
 
 #endif // TERRAIN_H

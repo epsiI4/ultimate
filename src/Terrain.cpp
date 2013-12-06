@@ -1,10 +1,11 @@
-#include "Terrain.h"
-
+#include "..\include\Terrain.h"
+#include "..\include\Zone.h"
+#include <vector>
 Terrain::Terrain()
 {
 
     int x,y;
-    int i,y;
+    int i; /*supression y doublon */
     int w,h;
     int wZone,hZone;
     wZone = 50;

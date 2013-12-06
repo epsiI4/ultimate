@@ -5,13 +5,13 @@
 class Frisbee
 {
     public:
-        Frisbee();
+        Frisbee(status,int,int,int);
         virtual ~Frisbee();
     protected:
     private:
         int num;
-        int[] posXY;
-        enum status {'up','down'};
+        int posXY[];
+        enum status{up,down};
 };
 
 #endif // FRISBEE_H

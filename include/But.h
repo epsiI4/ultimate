@@ -1,8 +1,9 @@
 #ifndef BUT_H
 #define BUT_H
+#include "Zone.h"
 
 
-class But : Zone()
+class But : public Zone
 {
     public:
         But();

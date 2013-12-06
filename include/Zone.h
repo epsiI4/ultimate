@@ -5,14 +5,14 @@
 class Zone
 {
     public:
-        Zone();
+        Zone(int x,int y,int w, int h);
         virtual ~Zone();
     protected:
     private:
         int id;
         int width;
         int height;
-        int[] posXY;
+        int posXY[2];
 };
 
 #endif // ZONE_H

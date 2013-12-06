@@ -31,3 +31,21 @@
 
 1386343367 c:\users\guillaume\projetc++\ultimate\include\zone.h
 
+1386337423 source:d:\documents\2013-2014 - i4\projet ultimate\ultimate\main.c
+	<windows.h>
+	<gl/gl.h>
+	<pthread.h>
+
+1386337423 source:d:\documents\2013-2014 - i4\projet ultimate\ultimate\src\but.cpp
+	"But.h"
+
+1386344378 d:\documents\2013-2014 - i4\projet ultimate\ultimate\include\but.h
+	"Zone.h"
+
+1386344378 d:\documents\2013-2014 - i4\projet ultimate\ultimate\include\zone.h
+
+1386344748 source:d:\documents\2013-2014 - i4\projet ultimate\ultimate\src\player.cpp
+	"Player.h"
+
+1386345078 d:\documents\2013-2014 - i4\projet ultimate\ultimate\include\player.h
+

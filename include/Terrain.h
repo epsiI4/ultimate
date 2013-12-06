@@ -2,6 +2,7 @@
 #define TERRAIN_H
 #include "..\include\Zone.h"
 #define nbZone 11
+#include <vector>
 
 class Terrain
 {
@@ -11,7 +12,7 @@ class Terrain
     protected:
     private:
 
-        Zone zones[nbZone];
+        std::vector<Zone> zones;
 };
 
 #endif // TERRAIN_H

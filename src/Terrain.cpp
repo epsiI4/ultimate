@@ -1,5 +1,6 @@
 #include "..\include\Terrain.h"
 #include "..\include\Zone.h"
+#include "But.h"
 #include <vector>
 Terrain::Terrain()
 {
@@ -10,22 +11,24 @@ Terrain::Terrain()
     int wZone,hZone;
     wZone = 50;
     hZone = 30;
+    i=0;
+    y=0;
     x=0;
     y=0;
 
-    Zone butLeft = new Zone(0,0,20,30);
-    zones.insert(butLeft);
-    for(i=0,i<3,i++){
-        for(j=0,<3,){
-            Zone z = new Zone(x,y,wZone,hZone));
-            zones.insert(z);
+    But *butLeft = new But(0,0,20,30);
+    zones.push_back(*butLeft);
+    for(i;i<3;i++){
+        for(j;j<3;j++){
+            Zone *z = new Zone(x,y,wZone,hZone);
+            zones.push_back(*z);
             x += wZone;
         }
         y += hZone;
     }
 
-    Zone butRight = new Zone(150,0,20,30);
-    zones.insert(butRight);
+    But *butRight = new But(150,0,20,30);
+    zones.push_back(*butRight);
 }
 
 Terrain::~Terrain()

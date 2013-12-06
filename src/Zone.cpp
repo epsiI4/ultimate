@@ -13,6 +13,6 @@ Zone::~Zone()
     //dtor
 }
 
-public int[] getPos(){
-    return posXY;
+int Zone::getPosXY(){
+    return posXY[0];
 }

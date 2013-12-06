@@ -6,7 +6,7 @@
 class But : public Zone
 {
     public:
-        But();
+        But(int,int,int,int);
         virtual ~But();
     protected:
     private:

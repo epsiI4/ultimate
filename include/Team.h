@@ -1,5 +1,8 @@
 #ifndef TEAM_H_INCLUDED
 #define TEAM_H_INCLUDED
+#include "Player.h"
+#include <vector>
+#include <string>
 
 class Team
 {
@@ -9,7 +12,7 @@ class Team
     protected:
     private:
        std::vector<Player> playerList;
-       std::String name;
+       std::string name;
        int score;
 };
 

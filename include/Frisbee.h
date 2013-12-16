@@ -1,17 +1,17 @@
 #ifndef FRISBEE_H
 #define FRISBEE_H
 
-
 class Frisbee
 {
     public:
-        Frisbee(status,int,int,int);
+        Frisbee();
+        Frisbee(bool,int,int,int);
         virtual ~Frisbee();
     protected:
     private:
-        int num;
+        int owner;
         int posXY[];
-        enum status{up,down};
+        bool up;
 };
 
 #endif // FRISBEE_H

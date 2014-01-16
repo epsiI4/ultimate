@@ -7,9 +7,10 @@
 class Team
 {
     public:
-        Team();
+        Team(std::string,int);
         virtual ~Team();
-    protected:
+        std::string getName();
+        std::vector<Player> getPlayers();
     private:
        std::vector<Player> playerList;
        std::string name;

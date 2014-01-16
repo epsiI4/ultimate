@@ -5,7 +5,10 @@ class Frisbee
 {
     public:
         Frisbee();
-        Frisbee(bool,int,int,int);
+        void setPos(int[]);
+        void setUp(bool);
+        void setOwner(int);
+
         virtual ~Frisbee();
     protected:
     private:

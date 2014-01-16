@@ -1,18 +1,18 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-
 class Player
 {
     public:
-        Player();
+        Player(int);
         virtual ~Player();
+        void hello();
         void passe();
         void getBall();
         // void receive();
     protected:
     private:
-        // int team
+        int id;
         float posxy[2];
         float speed;
         // reception

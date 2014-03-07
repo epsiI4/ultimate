@@ -35,3 +35,25 @@ Terrain::~Terrain()
 {
 
 }
+
+int Terrain::getHeight(){
+    int height;
+    int i;
+    Zone *z;
+    for(i=0 ; i<zones.size() ; i++){
+        *z = zones[i];
+        height = height + z->getHeight();
+    }
+    return height;
+}
+
+int Terrain::getWidth(){
+    int width;
+    int i;
+    Zone *z;
+    for(i=0 ; i<zones.size() ; i++){
+        *z = zones[i];
+        width = width + z->getWidth();
+    }
+    return width;
+}

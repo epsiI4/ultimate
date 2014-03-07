@@ -9,6 +9,8 @@ class Zone
         Zone(int,int,int,int);
         int getPosXY();
         virtual ~Zone();
+        int getWidth();
+        int getHeight();
     protected:
     private:
         int id;

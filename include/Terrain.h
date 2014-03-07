@@ -9,6 +9,8 @@ class Terrain
     public:
         Terrain();
         virtual ~Terrain();
+        int getWidth();
+        int getHeight();
     protected:
     private:
 

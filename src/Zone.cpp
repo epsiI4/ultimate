@@ -16,3 +16,11 @@ Zone::~Zone()
 int Zone::getPosXY(){
     return posXY[0];
 }
+
+int Zone::getHeight(){
+    return height;
+}
+
+int Zone::getWidth(){
+    return width;
+}

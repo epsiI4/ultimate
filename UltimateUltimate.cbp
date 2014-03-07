@@ -37,12 +37,16 @@
 			<Add library="gdi32" />
 		</Linker>
 		<Unit filename="include/But.h" />
+		<Unit filename="include/Frisbee.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Team.h" />
 		<Unit filename="include/Terrain.h" />
 		<Unit filename="include/Zone.h" />
-		<Unit filename="main.c">
-			<Option compilerVar="CC" />
-		</Unit>
+		<Unit filename="main.cpp" />
 		<Unit filename="src/But.cpp" />
+		<Unit filename="src/Frisbee.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Team.cpp" />
 		<Unit filename="src/Terrain.cpp" />
 		<Unit filename="src/Zone.cpp" />
 		<Extensions>

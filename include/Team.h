@@ -10,9 +10,9 @@ class Team
         Team(std::string,int);
         virtual ~Team();
         std::string getName();
-        std::vector<Player> getPlayers();
+        std::vector<Player*> getPlayers();
     private:
-       std::vector<Player> playerList;
+       std::vector<Player*> playerList;
        std::string name;
        int score;
 };
